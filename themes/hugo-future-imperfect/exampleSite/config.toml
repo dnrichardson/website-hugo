@@ -1,29 +1,22 @@
-baseurl = "https://dnrichardson.github.io"
+baseurl = "http://hugo.spf13.com/"
 languageCode = "en-us"
-title = "Dale Richardson"
+title = "Hugo Future Imperfect"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
-disqusShortname = "dnrichardson-1"
-googleAnalytics = "UA-102604768-1"
-enableEmoji = true
-ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+disqusShortname = "shortname"
+googleAnalytics = ""
 
 [params]
     # Sets the meta tag description, usually reserved for the main page
     description          = "HTML5 UP theme, Future Imperfect with some extra goodies, ported by Julio Pescador. Powered by Hugo"
     # This will appear on the top left of the navigation bar
-    navbarTitle          = "Home"
+    navbarTitle          = "Future Imperfect"
     # Social media buttons that appear on the sidebar
     socialAppearAtTop    = true
     socialAppearAtBottom = true
     # set this to the section name if section is not post
-    viewMorePostLink     = "/blog"
-    
-    # options for highlight.js (version, additional languages, and theme)
-    highlightjsVersion = "9.9.0"
-    highlightjsLang = ["r", "python", "yaml"]
-    highlightjsTheme = "github"
+    viewMorePostLink     = "/blog/"
 
 # Optional Params
     categoriesByCount    = true
@@ -48,23 +41,23 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 # parms.intro will appear on the sidebar
 # This is optional, but it's suggested to use
 [params.intro]
-    header    = "Dale Richardson"
+    header    = "Hugo Future Imperfect"
 
-    paragraph = "A space to chronicle my journey from academia to data science <i class='fa fa-spinner'></i>"
+    paragraph = "Another fine responsive site template by <a href=\"http://html5up.net\">HTML5 UP</a>. Ported by Julio Pescador with some extra goodies <i class='fa fa-hand-peace-o'></i>"
 
-#    about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis #velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet #ligula elit. Mauris."
+    about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet ligula elit. Mauris."
 
 # This will also appear on the sidebar.
 # A width of less than 100px is recommended
 # This is optional
 [params.intro.pic]
-    src       = "/img/main/dale.jpg"
+    src       = "/img/main/logo.jpg"
     # modify your picture in the shape of a circle or
     # future imperfect's hexagonal shape
     circle    = false
     imperfect = true
-    width     = "80px"
-    alt       = "test"
+    width     = ""
+    alt       = "Hugo Future Imperfect"
 
 # Adjust the amount of recent posts on the sidebar.
 # This is optional. The default value 5 will be used
@@ -87,20 +80,13 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 [[menu.main]]
     name = "About"
     url = "/about"
-    identifier = "fa fa-smile-o"
     weight = 3
-    
-[[menu.main]]
-    name = "CV"
-    url = "/cv"
-    identifier = "fa fa-clipboard"
-    weight = 4    
 
 # Insert your username and the icon will apear on the page as long as
 # socialAppearAtTop or socialAppearAtBottom is set to true in the params area
 # The social media icons will appear on the sidebar
 [social]
-    github          = "dnrichardson"
+    github          = "jpescador"
     bitbucket       = ""
     jsfiddle        = ""
     codepen         = ""
@@ -117,7 +103,7 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     wordpress       = ""
     tumblr          = ""
     xing            = ""
-    linkedin        = "dalesan"
+    linkedin        = ""
     slideshare      = ""
     stackoverflow   = ""
     reddit          = ""
@@ -126,5 +112,5 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
     facebook        = ""
     facebook_admin  = ""
     twitter_domain  = ""
-    twitter         = "yogiwankinobi"
-    email           = "dalesan@gmail.com"
+    twitter         = "julio_pescador"
+    email           = ""
