@@ -52,7 +52,7 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
 
     paragraph = "A space to chronicle my journey from academia to data science <i class='fa fa-spinner'></i>"
 
-#    about     = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent tellus lacus, auctor vehicula molestie quis, tempor quis #velit. Quisque in quam ac leo efficitur vulputate. Phasellus ullamcorper aliquam sodales. Maecenas sit amet condimentum ipsum. Proin sit amet #ligula elit. Mauris."
+    about     = ""
 
 # This will also appear on the sidebar.
 # A width of less than 100px is recommended
